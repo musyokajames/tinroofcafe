@@ -1,0 +1,321 @@
+
+body{
+  max-width: 100%;
+}
+
+
+.header{
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.header-logo{
+  padding-top: 20px;
+  width: 150px;
+}
+
+.header-nav{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  top: 50px;
+  padding-right: 10px;
+  
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-links a{
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.header-links a:hover{
+  color: gray;
+}
+.footer{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  margin-bottom: 30px;
+ 
+}
+.footer a{
+  text-decoration: none;
+  color: rgb(46, 45, 45);
+}
+.footer a:hover{
+  color: gray;
+}
+.footer-contact{
+  text-decoration: underline;
+  font-weight: bold;
+  text-decoration-color: rgb(131, 129, 129);
+  text-decoration-thickness: 2px;
+  margin-bottom: 30px;
+}
+.footer-details{
+  margin: 30px;
+  font-weight: lighter;
+}
+.footer-details p{
+  font-weight: lighter;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 30px;
+}
+.footer-hours{
+  word-spacing: 6px;
+}
+.footer-form{
+  margin-top: 60px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.footer-form input{
+  /* width: 30%; */
+  height: 40px;
+  border: 1px solid rgb(195, 188, 188);
+}
+.footer-form button{
+  height: 45px;
+  width: 20%;
+  color: #171616;
+  border: none;
+  cursor: pointer;
+}
+.contact{
+  display: block;
+  text-align: center;
+  margin-top: 70px;
+  padding: 20px;
+}
+.contact a{
+  text-decoration: none;
+  color: black;
+}
+.bold{
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  margin: 20px;
+}
+.contact-tel{
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 30px;
+}
+.contact-form{
+  display: inline-block;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.name-section{
+  margin-bottom: 20px;
+}
+
+.name-inputs{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 102%;
+}
+
+input[type='text'],
+input[type='email']{
+  width: 90%;
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  margin: 15px;
+  font-size: 15px;
+}
+
+textarea{
+  width: 90%;
+  height: 150px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  padding: 10px;
+}
+label{
+  text-align: left;
+}
+
+button[type="submit"]{
+  width: 100px;
+  margin: 20px;
+  height: 40px;
+  border: 2px solid black;
+}
+
+button[type="button"]{
+  width: 200px;
+  margin: 20px;
+  height: 50px;
+  border: 2px solid black;
+  text-align: center;
+}
+button[type="button"]:hover,
+button[type="submit"]:hover{
+  color: white;
+  background-color: black;
+  
+}
+.about{
+  text-align: center;
+  align-items: center;
+  display: block;
+}
+.about-mainimg{
+  width:100%;
+}
+.heading{
+  margin: 50px;
+  font-size: 42px;
+}
+.leaves{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.img-container{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.img-container img{
+  width: 150px;
+  height: auto;
+}
+.about-section{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.about-section p{
+  margin-bottom: 30px;
+  font-weight: lighter;
+  text-indent: 20px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+.home-section{
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+  margin-right: 2%;
+  vertical-align: top;
+  
+}
+
+.home-section img{
+  max-width: 100%;
+}
+
+.home-section h3{
+  margin-top: 10px;
+}
+.home-section p{
+  margin-top: 10px;
+}
+.home-section button{
+  padding: 5px 10px; 
+  background-color: white;
+  color: #0b0b0b;
+  border: 1px solid black;
+}
+.home-welcome{
+  text-align: center;
+}
+
+.home-welcome p{
+  text-align: center;
+}
+.salad{
+  background-image: url(../public/images/salad.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.roses{
+  background-image: url(../public/images/Roses.jpeg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutmainimg{
+  background-image: url(../public/images/TRC.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.press-img{
+  background-image: url(../public/images/oliver.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.experiences{
+  display: grid;
+  text-align: center;
+}
+.leaves2{
+  padding-top: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.samplemenu{
+  padding-top: 3rem;
+  height: 550px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btns{
+ display: flex;
+ justify-content: center;
+ padding-bottom: 2rem;
+}
+.home-images{
+  display: flex;
+  gap: 20px;
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+.press-intro{
+  display: grid;
+  text-align: center;
+}
+.press-links{
+  display: grid;
+  text-align: center;
+  margin-right: 2%;
+  vertical-align: top;
+  gap: 20px;
+}
+.menu a{
+  margin-left: auto;
+  margin-right: auto;
+}
